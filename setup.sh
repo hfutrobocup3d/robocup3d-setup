@@ -33,7 +33,6 @@ cd ../../..
 sudo apt install default-jdk rsync -y
 cd RoboViz
 ./scripts/build-linux64.sh
-echo "export PATH=$PATH:$(cwd)/bin/linux-amd64/" >> ~/.bashrc
 
 
 
