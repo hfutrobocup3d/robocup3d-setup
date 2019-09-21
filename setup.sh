@@ -28,7 +28,7 @@ cmake ..
 make -j$(nproc)
 sudo make install
 sudo ldconfig
-cd ..
+cd ../../..
 
 sudo apt install default-jdk rsync -y
 cd RoboViz
