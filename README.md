@@ -1,4 +1,4 @@
-just run setup scripts.
+Sync all the submodule and run setup scripts.
 
 Enjoy.
 
