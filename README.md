@@ -4,4 +4,4 @@ Enjoy.
 
 
 
-By d0ot@github.com, Sep 21 2019
+By d0ot at github, Sep 21 2019
