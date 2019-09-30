@@ -1,5 +1,5 @@
 echo "Robocup3D simulation Server and Monitor Installer"
-echo "make sure the offline packages are in the cwd"
+echo "make sure the offline packages are in the cwd and you have installed jdk"
 
 sudo apt update
 
@@ -30,7 +30,7 @@ sudo make install
 sudo ldconfig
 cd ../../..
 
-sudo apt install default-jdk rsync -y
+sudo apt install rsync -y
 cd RoboViz
 ./scripts/build-linux64.sh
 
