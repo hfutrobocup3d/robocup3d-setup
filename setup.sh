@@ -1,5 +1,5 @@
 echo "Robocup3D simulation Server and Monitor Installer"
-echo "make sure the offline packages are in the cwd and you have installed jdk"
+echo "Make sure that, you have sync the submodlues."
 
 sudo apt update
 
