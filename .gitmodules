@@ -1,9 +1,9 @@
 [submodule "SimSpark"]
 	path = SimSpark
-	url = https://gitlab.com/robocup-sim/SimSpark
+	url = https://gitee.com/doot/SimSpark.git
 [submodule "ode-tbb"]
 	path = ode-tbb
-	url = https://github.com/sgvandijk/ode-tbb.git
+	url = https://gitee.com/doot/ode-tbb.git
 [submodule "RoboViz"]
 	path = RoboViz
-	url = https://github.com/magmaOffenburg/RoboViz.git
+	url = https://gitee.com/doot/RoboViz.git
