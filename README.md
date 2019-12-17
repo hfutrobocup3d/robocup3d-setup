@@ -6,7 +6,6 @@ Instructions:
 
 ```
 # install jdk... do it yourself..
-git submodule update --init
 ./setup.sh
 ```
 
