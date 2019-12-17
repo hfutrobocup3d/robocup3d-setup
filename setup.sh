@@ -1,9 +1,12 @@
 echo "Robocup3D simulation Server and Monitor Installer"
-echo "Make sure that, you have sync the submodlues."
 
 sudo apt update
 
-sudo apt install build-essential subversion git cmake libfreetype6-dev libsdl1.2-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default -y
+sudo apt install git -y
+
+git submodule update --init
+
+sudo apt install build-essential subversion cmake libfreetype6-dev libsdl1.2-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default libqt4-opengl libqt4-opengl-dev -y
 
 sudo apt install autogen automake libtool libtbb-dev -y
 cd ode-tbb
