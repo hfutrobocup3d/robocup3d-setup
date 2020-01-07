@@ -37,6 +37,10 @@ sudo apt install rsync -y
 cd RoboViz
 ./scripts/build-linux64.sh
 
-
+cd ..
+ADir="\$bindir/rcssmonitor3d"
+BDir="$( cd RoboViz/bin/linux-amd64 && pwd)/roboviz.sh"
+sudo sed -i "s#$ADir#${BDir}#" /usr/local/bin/rcsoccersim3d
+echo "Rebinding with RoboViz"
 
 echo "Installation Done"
