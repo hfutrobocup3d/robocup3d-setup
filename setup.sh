@@ -2,6 +2,8 @@ echo "Robocup3D simulation Server and Monitor Installer"
 
 sudo apt update
 
+sudo apt upgrade -y
+
 sudo apt install git -y
 
 git submodule update --init
