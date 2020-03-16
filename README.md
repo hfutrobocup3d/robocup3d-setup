@@ -3,7 +3,7 @@ One-Line to install the Robocup3D Environment
 Instructions:
 
 ```
-wget -O- https://raw.githubusercontent.com/D0ot/Robocup3dInstaller/gitee/ins.sh | sh
+wget -O- https://gitee.com/doot/Robocup3dInstaller/raw/gitee/ins.sh | sh
 ```
 
 Enjoy~
