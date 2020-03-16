@@ -5,7 +5,6 @@ Enjoy.
 Instructions:
 
 ```
-# install jdk... do it yourself..
 ./setup.sh
 ```
 
