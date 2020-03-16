@@ -1,13 +1,13 @@
-Sync all the submodule and run setup scripts.
-
-Enjoy.
+One-Line to install the Robocup3D Environment
 
 Instructions:
 
 ```
-./setup.sh
+weget -O- https://raw.githubusercontent.com/D0ot/Robocup3dInstaller/gitee/ins.sh
 ```
 
-TODO: modifiy the env variables.
+Enjoy~
 
-By d0ot at github, Sep 21 2019
+TODO: using Oracle JDK
+
+By d0ot at github, 2020/3/16
