@@ -6,7 +6,7 @@ sudo apt install git -y
 
 git submodule update --init
 
-sudo apt install build-essential subversion cmake make libfreetype6-dev libsdl1.2-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default libqt4-opengl libqt4-opengl-dev -y
+sudo apt install build-essential subversion cmake make libfreetype6-dev libsdl1.2-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default libqt4-opengl libqt4-opengl-dev openjdk-8-jdk -y
 
 sudo apt install autogen automake libtool libtbb-dev -y
 cd ode-tbb
