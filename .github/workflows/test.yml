@@ -7,7 +7,8 @@ name: setup-CI
 on:
   push:
     branches: [ master ]
-    paths-ignore: '**.md'
+    paths-ignore: 
+    - '**.md'
   pull_request:
     branches: [ master ]
     
@@ -32,4 +33,4 @@ jobs:
     - name: Test rcsserver3d
       run: |
         export LD_LIBRARY_PATH=/usr/local/lib/simspark:/usr/local/lib/rcssserver3d
-        timeout -s 9 10 rcssserver3d
+        timeout -s 9 10 rcssserver3d || if [ $? -ne 137 ]; then exit 1; fi
