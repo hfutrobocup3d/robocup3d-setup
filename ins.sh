@@ -17,7 +17,7 @@ mkdir ./.local/Robocup3d -p
 
 cd ./.local/Robocup3d
 
-git clone https://https://github.com/hfutrobocup3d/robocup3d-setup
+git clone https://github.com/hfutrobocup3d/robocup3d-setup
 
 cd robocup3d-setup
 
